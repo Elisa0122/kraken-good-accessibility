@@ -24,7 +24,7 @@ img {
 }
 
 .bookname {
-  background-position: #1e7c74;
+  background-color: #000;
   background-image: url("../images/anchors.svg");
   color: #fff;
   font-size: 1.125rem;
@@ -95,7 +95,7 @@ nav a {
   border: 0;
   border-radius: 6px;
   color: #fff;
-  padding: 0.5rem;
+  padding: .5rem;
   width: 2.5rem;
   height: 2.5rem;
 }
@@ -164,7 +164,7 @@ footer {
   display: flex;
   justify-content: center;
   padding: 1rem;
-  background-position: #1e7c74;
+  background-color: #000;
   background-image: url("../images/anchors.svg");
   color: #fff;
 }

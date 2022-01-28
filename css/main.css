@@ -23,8 +23,8 @@ img {
   width: 100%;
 }
 
-header {
-  background-color: #597573;
+.title {
+  background-position: #1e7c74;
   background-image: url("../images/anchors.svg");
   color: #fff;
   font-size: 1.125rem;
@@ -47,7 +47,7 @@ article div {
   padding: 1rem;
 }
 
-article header {
+header > article {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -68,7 +68,8 @@ h2 {
   margin: 0;
   color: #fff;
   font-weight: normal;
-  font-size: 1.75rem;
+  font-style: normal;
+  font-size: 1em;
 }
 
 nav ul {
@@ -156,7 +157,7 @@ footer {
   display: flex;
   justify-content: center;
   padding: 1rem;
-  background-color: #597573;
+  background-position: #1e7c74;
   background-image: url("../images/anchors.svg");
   color: #fff;
 }
